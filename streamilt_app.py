@@ -7,3 +7,5 @@ st.write(' 🥣 Omega 3 & Blueberry oatmeal')
 st.write(' 🥗 Kale, spinach & rocket smoothie')
 st.write(' 🐔 Hard-boiled Free-Range egg')
 st.write(' 🥑🍞 Avacado Toast')
+
+streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
