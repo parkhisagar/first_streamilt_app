@@ -3,6 +3,7 @@ import streamlit as st
 import pandas as pd
 import requests
 import snowflake.connector as sc
+from urllib.error import urlerror
 
 st.title('My Parents New Healthy Diner')
 st.subheader('Breakfast Favorites')
@@ -49,5 +50,3 @@ add_my_fruit = st.text_input('What fruit would you like to add?','Jackfruit')
 
 st.write('Thanks for adding - ', add_my_fruit)
 my_cur.execute("insert into fruit_load_list values ('from streamlit')")
-
-
