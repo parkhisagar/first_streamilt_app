@@ -27,7 +27,7 @@ fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon"
 st.text(fruityvice_response.json())
 
 # bring in table with row column form with normalize
-fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
+fruityvice_normalized = pd.json_normalize(fruityvice_response.json())
 # put it in dataframe
 st.dataframe(fruityvice_normalized)
 
