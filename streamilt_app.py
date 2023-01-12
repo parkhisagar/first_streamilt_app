@@ -68,5 +68,5 @@ if st.button('Add a new Fruit to List'):
    
 # st.dataframe(add_my_fruit)
 
-st.write('Thanks for adding - ', add_my_fruit)
-my_cur.execute("insert into fruit_load_list values ('from streamlit')")
+#st.write('Thanks for adding - ', add_my_fruit)
+#my_cur.execute("insert into fruit_load_list values ('from streamlit')")
